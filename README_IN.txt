@@ -1,4 +1,4 @@
-# 🛡️ Network Diff Scanner** is a Python-based tool for detecting changes in network attack surfaces by comparing scan results over time.
+#  Network Diff Scanner** is a Python-based tool for detecting changes in network attack surfaces by comparing scan results over time.
 
 A cybersecurity tool written in Python to **detect changes in a host's attack surface** by comparing network scans over time.
 
@@ -6,7 +6,7 @@ Inspired by **Red Team fundamentals** and concepts from *The Hacker Playbook 3*.
 
 ---
 
-## 🎯 Project Goal
+##  Project Goal
 
 This project was developed as part of a personal cybersecurity learning lab with the goal of:
 
@@ -18,7 +18,7 @@ This project was developed as part of a personal cybersecurity learning lab with
 
 ---
 
-## 🧠 How It Works
+##  How It Works
 
 1. The script runs from an attacker machine (Kali Linux)
 2. Uses `nmap` to scan specific ports on the target
@@ -33,21 +33,21 @@ Each execution represents a **snapshot of the target's network state**.
 
 ---
 
-## 🖥️ Lab Environment
+##  Lab Environment
 
-- 🐧 **Attacker:** Kali Linux
-- 🪟 **Target:** Windows VM
-- 🌐 **Network:** VirtualBox Host-Only / NAT
-- ⚙️ **Scanner Engine:** nmap
-- 🐍 **Language:** Python 3
+-  **Attacker:** Kali Linux
+-  **Target:** Windows VM
+-  **Network:** VirtualBox Host-Only / NAT
+-  **Scanner Engine:** nmap
+-  **Language:** Python 3
 
-> ⚠️ This project was developed and tested **only in controlled lab environments**.
+>  This project was developed and tested **only in controlled lab environments**.
 
 ---
 
-## 📂 Project Structure
+##  Project Structure
 
-# 🛡️ Network Diff Scanner
+#  Network Diff Scanner
 
 A cybersecurity tool written in Python to **detect changes in a host's attack surface** by comparing network scans over time.
 
@@ -55,7 +55,7 @@ Inspired by **Red Team fundamentals** and concepts from *The Hacker Playbook 3*.
 
 ---
 
-## 🎯 Project Goal
+##  Project Goal
 
 This project was developed as part of a personal cybersecurity learning lab with the goal of:
 
@@ -76,7 +76,7 @@ Red Team & Blue Team fundamentals
 
 ---
 
-## 🧠 How It Works
+##  How It Works
 
 1. The script runs from an attacker machine (Kali Linux)
 2. Uses `nmap` to scan specific ports on the target
