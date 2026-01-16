@@ -65,6 +65,15 @@ This project was developed as part of a personal cybersecurity learning lab with
 - Simulating continuous attack surface monitoring
 - Serving as a foundation for more advanced tools (alerts, C2, Blue Team, etc.)
 
+### Features
+- Nmap scan
+- JSON history
+- Port diff detection
+- Alerts on changes
+
+### Use case
+Red Team & Blue Team fundamentals
+
 ---
 
 ## 🧠 How It Works
