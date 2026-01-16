@@ -1,4 +1,4 @@
-# 🛡️ Network Diff Scanner** Es una herramienta basada en Python para detectar cambios en las superficies de ataque de la red comparando los resultados de los escaneos a lo largo del tiempo.
+# Network Diff Scanner** Es una herramienta basada en Python para detectar cambios en las superficies de ataque de la red comparando los resultados de los escaneos a lo largo del tiempo.
 
 Herramienta de ciberseguridad desarrollada en Python para **detectar cambios en la superficie de ataque de un host**, comparando escaneos de red a lo largo del tiempo.
 
@@ -6,7 +6,7 @@ Inspirada en **fundamentos de Red Team** y en conceptos de *The Hacker Playbook 
 
 ---
 
-## 🎯 Objetivo del Proyecto
+## Objetivo del Proyecto
 
 Este proyecto fue creado como parte de un laboratorio personal de aprendizaje en ciberseguridad con el objetivo de:
 
@@ -16,9 +16,19 @@ Este proyecto fue creado como parte de un laboratorio personal de aprendizaje en
 - Simular monitoreo continuo de superficie de ataque
 - Servir como base para herramientas más avanzadas (alertas, C2, Blue Team, etc.)
 
+
+### Características
+- Escaneo con Nmap
+- Historial en formato JSON
+- Detección de cambios en puertos
+- Alertas ante cambios
+
+### Caso de uso
+Fundamentos de Red Team y Blue Team
+
 ---
 
-## 🧠 ¿Cómo Funciona?
+## ¿Cómo Funciona?
 
 1. El script se ejecuta desde una máquina atacante (Kali Linux)
 2. Utiliza `nmap` para escanear puertos específicos del objetivo
@@ -33,19 +43,19 @@ Cada ejecución representa un **snapshot del estado de red del objetivo**.
 
 ---
 
-## 🖥️ Entorno de Laboratorio
+##  Entorno de Laboratorio
 
-- 🐧 **Atacante:** Kali Linux
-- 🪟 **Objetivo:** Windows (VM)
-- 🌐 **Red:** VirtualBox Host-Only / NAT
-- ⚙️ **Motor de escaneo:** nmap
-- 🐍 **Lenguaje:** Python 3
+- **Atacante:** Kali Linux
+- **Objetivo:** Windows (VM)
+- **Red:** VirtualBox Host-Only / NAT
+- **Motor de escaneo:** nmap
+- **Lenguaje:** Python 3
 
-> ⚠️ Proyecto desarrollado y probado **exclusivamente en entornos controlados (lab)**.
+> Proyecto desarrollado y probado **exclusivamente en entornos controlados (lab)**.
 
 ---
 
-## 📂 Estructura del Proyecto
+## Estructura del Proyecto
 
 network-diff-scanner/
 ├── scanner.py
@@ -55,7 +65,7 @@ network-diff-scanner/
 └── README_ES.md
 |── README_IN.md
 
-## 📚 Marco Teórico
+## Marco Teórico
 
 ### Reconocimiento de Red
 El reconocimiento de red es el proceso de identificar hosts activos, puertos abiertos y servicios expuestos dentro de una red. Es una fase fundamental tanto en operaciones ofensivas (Red Team) como defensivas (Blue Team).
