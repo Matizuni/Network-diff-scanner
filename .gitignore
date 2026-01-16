@@ -1,0 +1,17 @@
+# Python
+__pycache__/
+*.pyc
+
+# Virtual environment
+venv/
+
+# Environment variables
+.env
+.emv
+
+# Logs
+cron.log
+*.log
+
+# Scan results
+scans/*.json
