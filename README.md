@@ -1,30 +1,44 @@
-🛡️ Network Diff Scanner
+# 🛡️ Network Diff Scanner
 
-Herramienta de análisis de red para detectar cambios en dispositivos conectados, orientada a auditorías de seguridad en redes domésticas.
+Herramienta de ciberseguridad desarrollada en Python para detectar cambios en la superficie de ataque de un host mediante la comparación de escaneos de red a lo largo del tiempo.
 
-🔍 Características
-Escaneo de red local (LAN)
-Detección de nuevos dispositivos
-Comparación de estados de red (baseline vs actual)
-Identificación de posibles intrusos
-⚙️ Tecnologías
-Python
-Nmap (opcional)
-Networking (TCP/IP)
-🚀 Uso
-python scanner.py
-📊 Caso real de uso
+Inspirada en fundamentos de Red Team y metodologías descritas en *The Hacker Playbook 3*.
 
-He utilizado esta herramienta en auditorías de redes domésticas para:
+---
 
-Detectar dispositivos desconocidos
-Revisar configuraciones de routers
-Evaluar seguridad básica (contraseñas, puertos)
-🧠 En desarrollo
-Integración con reportes automáticos
-Exportación a PDF
-Alertas en tiempo real
-👨‍💻 Autor
+## 🎯 Objetivo
 
-Matías Zúñiga
-Junior Cybersecurity Analyst (en formación)
+Este proyecto forma parte de un laboratorio personal de ciberseguridad enfocado en:
+
+- Automatización de escaneos de red
+- Monitoreo de superficie de ataque
+- Detección de cambios en servicios expuestos
+- Aplicación de técnicas Red Team / Blue Team
+
+---
+
+## 🚀 Características
+
+- Escaneo de red usando Nmap
+- Almacenamiento de resultados en JSON
+- Comparación entre escaneos (baseline vs actual)
+- Detección de:
+  - Puertos nuevos
+  - Puertos cerrados
+- Generación de alertas básicas
+
+---
+
+## ⚙️ Tecnologías
+
+- Python 3
+- Nmap
+- JSON
+
+---
+
+## ▶️ Uso rápido
+
+```bash
+pip install -r requirements.txt
+python main.py
