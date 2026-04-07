@@ -1,0 +1,15 @@
+[SCAN RESULT]
+
+Target: 192.168.1.1
+
+[+] Open ports:
+22/tcp (open)
+80/tcp (open)
+443/tcp (open)
+
+[!] Changes detected:
+
++ New port opened: 8080/tcp
+- Port closed: 445/tcp
+
+[INFO] Scan completed successfully
